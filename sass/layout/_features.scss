@@ -20,9 +20,9 @@
 .features-list {
   justify-content: center;
   grid-gap: 30px;
-}
 
-.features-list__item {
+
+&__item {
   @media screen and (min-width: 480px) {
     width: 450px;
   }
@@ -34,7 +34,7 @@
   }
 }
 
-.features-list__icon-fon {
+&__icon-fon {
   display: flex;
   height: 120px;
   align-items: center;
@@ -55,11 +55,11 @@
   }
 }
 
-.features-list__icon {
+&__icon {
   align-items: center;
 }
 
-.features-list__title {
+&__title {
   margin-bottom: 10px;
 
   font-weight: 700;
@@ -73,9 +73,10 @@
   }
 }
 
-.features-list__text {
+&__text {
   font-size: 14px;
   line-height: 1.71;
 
   color: var(--secondary-text-color);
+}
 }

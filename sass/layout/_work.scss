@@ -5,24 +5,21 @@
   @media screen and (min-width: 1200px) {
     display: block;
   }
-}
-
-.work__title {
+&__title {
   margin-bottom: 50px;
 }
-
+}
 .work-list {
   display: flex;
   justify-content: center;
   align-items: center;
   grid-gap: 30px;
-}
 
-.work-list__item {
+&__item {
   position: relative;
 }
 
-.work-list__text {
+&__text {
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -38,4 +35,5 @@
 
   color: var(--white-text-color);
   background-color: rgba(47, 48, 58, 0.8);
+}
 }

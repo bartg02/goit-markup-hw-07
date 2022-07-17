@@ -72,9 +72,9 @@
     height: 600px;
     padding-top: 200px;
   }
-}
 
-.hero__title {
+
+&__title {
   padding: 0;
   margin-bottom: 30px;
   margin-left: auto;
@@ -103,7 +103,7 @@
   }
 }
 
-.hero__btn {
+&__btn {
   display: inline-block;
   min-width: 140px;
   border-radius: 4px;
@@ -133,4 +133,5 @@
     font-size: 16px;
     min-width: 200px;
   }
+}
 }
